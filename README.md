@@ -2074,4 +2074,4 @@ I suspect this is an oversight in the release of Istioctl I was using to record 
 
 In the meantime, it's not ideal, but you can manually edit the generated istio-configuration.yaml file to replace the ClusterIP services with NodePorts.
 
-Be careful if you do this - if you re-generate, you will lose your changes - but it's a decent workaround for now at least.
+Be careful if you do this - if you regenerate, you will lose your changes - but it's a decent workaround for now at least.
